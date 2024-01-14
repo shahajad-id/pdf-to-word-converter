@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import filedialog
 from tkinter.filedialog import askopenfilename,asksaveasfile
 from PyPDF2 import PdfFileReader
-#=================open file method======================
+#     open file method
 def openFile(): 
               
     file = askopenfilename(defaultextension=".pdf", 
